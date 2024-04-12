@@ -18,3 +18,9 @@ string result = name + surname + myAge2;
 Console.WriteLine(result);
 char myVar5 = 'c';
 var result2 = name.ToArray();
+
+//zmienna logiczna
+bool isActive = true;
+isActive = false;
+var isValid = 5 > 6;
+Console.WriteLine(isValid);
