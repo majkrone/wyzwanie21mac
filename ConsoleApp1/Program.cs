@@ -24,3 +24,17 @@ bool isActive = true;
 isActive = false;
 var isValid = 5 > 6;
 Console.WriteLine(isValid);
+
+//instrukcja if i podstawy debugowania
+var number1 = 2;
+var number2 = 10;
+
+if (number1 < number2)
+{
+Console.WriteLine("JESTEM TUTAJ W LINII 34");
+}
+else
+{
+    Console.WriteLine("JESTEM TUTAJ W LINII 38");
+
+}
