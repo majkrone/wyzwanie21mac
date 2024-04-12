@@ -26,12 +26,12 @@ var isValid = 5 > 6;
 Console.WriteLine(isValid);
 
 //instrukcja if i podstawy debugowania
-var number1 = 2;
+var number1 = 50;
 var number2 = 10;
 
 if (number1 < number2)
 {
-Console.WriteLine("JESTEM TUTAJ W LINII 34");
+    Console.WriteLine("JESTEM TUTAJ W LINII 34");
 }
 else
 {
