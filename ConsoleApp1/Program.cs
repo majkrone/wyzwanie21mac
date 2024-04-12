@@ -13,7 +13,7 @@ double myNumber2 = double.MaxValue;
 
 //zmienne tekstowe
 string name = "Maciek";
-string surname = "Goralczyk";
+string surname = "Góralczyk";
 string result = name + surname + myAge2;
 Console.WriteLine(result);
 char myVar5 = 'c';
