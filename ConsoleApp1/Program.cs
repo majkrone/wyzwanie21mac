@@ -1,40 +1,21 @@
-﻿// liczby calkowite
+﻿// Zadanie domowe dzień 4
+bool isWoman = true;
+int age = 18;
+string name = "Ewa";
 
-int myAge2 = 120;
-int newAge2 = myAge2 + 5;
-Console.WriteLine(newAge2);
-int myVar = int.MinValue;
-uint myVar2 = uint.MaxValue;
-ulong myVar3 = ulong.MaxValue;
-
-// liczby zmiennoprzecinkowe
-float myNumber = float.MaxValue;
-double myNumber2 = double.MaxValue;
-
-//zmienne tekstowe
-string name = "Maciek";
-string surname = "Góralczyk";
-string result = name + surname + myAge2;
-Console.WriteLine(result);
-char myVar5 = 'c';
-var result2 = name.ToArray();
-
-//zmienna logiczna
-bool isActive = true;
-isActive = false;
-var isValid = 5 > 6;
-Console.WriteLine(isValid);
-
-//instrukcja if i podstawy debugowania
-var number1 = 50;
-var number2 = 10;
-
-if (number1 < number2)
+if (isWoman == true && age < 30)
 {
-    Console.WriteLine("JESTEM TUTAJ W LINII 34");
+    Console.WriteLine("Kobieta o wieku poniżej 30 lat");
+}
+else if (name == "Ewa" && age == 33)
+{
+    Console.WriteLine("Ewa, lat 33");
+}
+else if (isWoman == false && age < 18)
+{
+    Console.WriteLine("Niepełnoletni mężczyzna");
 }
 else
 {
-    Console.WriteLine("JESTEM TUTAJ W LINII 38");
-
+    Console.WriteLine("Inny przypadek");
 }
