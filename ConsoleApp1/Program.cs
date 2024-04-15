@@ -18,4 +18,4 @@ else if (isWoman == false && age < 18)
 else
 {
     Console.WriteLine("Inny przypadek");
-}
+} :-)
